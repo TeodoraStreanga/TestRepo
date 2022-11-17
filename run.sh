@@ -2,5 +2,6 @@
 DIR="/home/ubuntu/Test"
 if [ ! -d "$DIR" ]; then
   sudo chmod +x /var/www/html/
+  sudo mv "$DIR"/index.html /var/www/html
   sudo mv -v "$DIR"/* /var/www/html
 fi
