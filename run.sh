@@ -1,7 +1,7 @@
 #!/bin/bash
 DIR="/Test/"
 if [ -d "$DIR" ]; then
-  sudo rm -r -d Test
+  sudo rm -r -d "$DIR"
 else
   sudo mkdir Test
   cd Test
