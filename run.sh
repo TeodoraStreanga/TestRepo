@@ -1,6 +1,5 @@
 #!/bin/bash
-Dir = "/Test"
-if [-d "$Dir"]; then
+if [-d "/Test"]; then
   sudo rm -r -d Test
 else
   sudo mkdir Test
