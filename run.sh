@@ -1,4 +1,5 @@
 #!/bin/bash
-chmod +x /var/www/html/
-cd Test
-mv * /var/www/html/
+sudo mkdir Test
+sudo chmod +x /var/www/html/
+sudo cd Test
+sudo mv * /var/www/html/
