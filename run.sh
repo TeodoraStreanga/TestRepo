@@ -1,3 +1,3 @@
 #!/bin/bash
-sudo chmod +x /var/www/html/
-sudo mv -v ~/ubuntu/Test/* /var/www/html/
+chmod +x /var/www/html/
+mv -v home/ubuntu/Test/* /var/www/html/
